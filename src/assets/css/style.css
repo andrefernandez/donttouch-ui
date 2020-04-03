@@ -364,8 +364,8 @@ a, a:hover, a:focus {
 /* Global Button Styles */
 .animated-button:link, .animated-button:visited {
 	width:auto;
-	color:#000;
-	background:#fff;
+	color:#fff;
+	background:#000;
 	font-size:20px;
 	line-height:55px;
 	padding:0 40px;
@@ -434,7 +434,7 @@ a, a:hover, a:focus {
 	cursor: pointer;
 	display: block;
 	position: relative;
-	border: 2px solid #F7CA18;
+	border: 2px solid #000000;
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 .animated-button.thar-one:hover {
@@ -457,7 +457,7 @@ a, a:hover, a:focus {
 	z-index: -1;
 	content: '';
 	color: #000 !important;
-	background: #F7CA18;
+	background: #cccccc;
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 
