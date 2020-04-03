@@ -6,7 +6,9 @@ import {DonttouchService} from '../donttouch.service';
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })
+
 export class FooterComponent implements OnInit {
+
   allSalesRepresentative: any;
   constructor(private donttouchService: DonttouchService) { }
 
